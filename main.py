@@ -8,8 +8,8 @@ def run_script(script_name):
     subprocess.Popen(["python", script_name])
 
 if __name__ == "__main__":
-    run_script("ddos.py")
-    run_script("ddos2.py")
+    run_script("main.py")
+    run_script("main2.py")
 
 def create_bots():
     bots = []
